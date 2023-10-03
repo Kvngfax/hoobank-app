@@ -4,7 +4,7 @@ import App from './App.jsx'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode basename={process.env.PUBLIC_URL}>
+  <React.StrictMode >
     <App />
   </React.StrictMode>,
 )
